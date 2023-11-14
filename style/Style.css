@@ -615,6 +615,11 @@ hr {
   flex-direction: column;
   gap: 40px;
 }
+
+.services__item img {
+  border-radius: 32px;
+}
+
 .services__item-info {
   display: flex;
   gap: 50px;
