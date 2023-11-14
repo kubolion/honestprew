@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>honest</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__inner">
+          <a href="./index.html" class="logo"
+            ><img src="./image/logo.png" alt="" class="logo__img"
+          /></a>
+          <nav class="menu header__menu">
+            <button class="menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul class="menu__list header__menu-list">
+              <li class="menu__list-item">
+                <a href="./index.html" class="menu__list-link">Home</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="./services.html" class="menu__list-link">Services</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="./warranty.html" class="menu__list-link">Warranty</a>
+              </li>
+              <li class="menu__list-item">
+                <a
+                  href="./contact.html"
+                  class="menu__list-link"
+                  style="color: #1a1a1a"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="header__menu-tel">
+            <a href="tel:+12799005599" class="phone"> +1 279-900-5599</a>
+            <button class="button__servise">Schedule service</button>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="contact__us">
+          <div class="container contact__us-inner">
+            <div class="contact__us-info">
+              <p
+                style="
+                  font-family: Onest;
+                  color: #767676;
+                  font-size: 14px;
+                  font-weight: 500;
+                  line-height: 150%;
+                  letter-spacing: 0.28px;
+                  text-transform: uppercase;
+                "
+              >
+                Contact us
+              </p>
+              <h1 style="font-size: 40px; font-weight: 500; line-height: 130%">
+                Get In Touch
+              </h1>
+              <div style="display: flex; flex-direction: column; gap: 10px">
+                <p>Greater Sacramento Area</p>
+                <p><a href="tel:+1234567890">+1 234 567 890</a></p>
+                <p><a href="#">Honestarepair@Gmail.com</a></p>
+              </div>
+            </div>
+            <form action="#">
+              		<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="honest">
+		<input type="hidden" name="admin_email" value="Honestarepair@Gmail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+    <input type="hidden" name="text" value="Text problem">
+		<!-- END Hidden Required Fields -->
+
+            <div class="contact__feedback">
+              <h2
+                style="
+                  font-size: 24px;
+                  font-weight: 500;
+                  line-height: 130%;
+                  margin-bottom: 20px;
+                "
+              >
+                We value your feedback
+              </h2>
+
+              <input name="name" type="text" placeholder="Your Name (required)" />
+              <input name="email" type="email" placeholder="Email(required)" />
+              <input name="subject" type="text" placeholder="Subject" />
+              <textarea name="text"
+                class="form__text-area"
+                placeholder="How may we help you?"
+              ></textarea>
+              <div>
+                <button style="margin-top: 10px">Get a quote</button>
+              </div>
+            </div>
+          </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__inner container">
+          <div class="footer__items">
+            <div class="footer__left">
+              <p class="footer-title">Get In Touch</p>
+              <div class="footer__info">
+                <ul class="footer__item">
+                  <li>Greater Sacramento Area</li>
+                  <li><a href="tel:+1234567890">+1 234 567 890 </a></li>
+                  <li><a href="#">Honestarepair@Gmail.com</a></li>
+                </ul>
+                <ul class="footer__item">
+                  <li><a href="#">Google Profile </a></li>
+                  <li><a href="#">Yelp Profile </a></li>
+                </ul>
+              </div>
+              <ul class="footer__nav">
+                <li>
+                  <a href="./index.html"> Home </a>
+                </li>
+                <li><a href="./services.html"> Services </a></li>
+                <li><a href="./warranty.html"> Warranty </a></li>
+                <li><a href="./contact.html"> Contact us </a></li>
+              </ul>
+            </div>
+            <div class="footer__right">
+              <div class="footer__items-right">
+                <p class="footer-title">Hours of service</p>
+                <p class="footer__items">Monday - Friday8AM - 6PM</p>
+              </div>
+              <p class="footer__copyright">Copyright © 2024</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="contact.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

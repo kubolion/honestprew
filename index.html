@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>honest</title>
+    <!-- <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__inner">
+          <a href="./index.html" class="logo"
+            ><img src="./image/logo.png" alt="" class="logo__img"
+          /></a>
+          <nav class="menu header__menu">
+            <button class="menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul class="menu__list header__menu-list">
+              <li class="menu__list-item">
+                <a
+                  href="./index.html"
+                  class="menu__list-link"
+                  style="color: #1a1a1a"
+                  >Home</a
+                >
+              </li>
+              <li class="menu__list-item">
+                <a href="./services.html" class="menu__list-link">Services</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="./warranty.html" class="menu__list-link">Warranty</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="./contact.html" class="menu__list-link">Contact us</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__menu-tel">
+            <a href="tel:+12799005599" class="phone"> +1 279-900-5599</a>
+            <button class="button__servise">Schedule service</button>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="top">
+          <div class="container top__inner">
+            <div class="top__title">
+              <div class="top__content">
+                <h1>Sacramento Appliance Repair</h1>
+                <p class="top__text">
+                  Your trusted source for top-quality appliance repair services
+                  in Sacramento, California.
+                </p>
+                <div class="top__content-info">
+                  <button>Call now</button>
+                  <div class="top__info-days">
+                    <p>Weekdays 8AM to 6PM</p>
+                    <a href="tel:+12799005599">+1 279-900-5599</a>
+                  </div>
+                </div>
+                <img class="top__img" src="./image/m-1.png" alt="" />
+              </div>
+            </div>
+            <div class="statistics__box">
+              <div class="statistics">
+                <div class="customers">
+                  <h3>2500+</h3>
+                  <p>satisfied</p>
+                  <p>customers</p>
+                </div>
+                <hr />
+                <div class="customers">
+                  <h3>4+</h3>
+                  <p>years of</p>
+                  <p>experience</p>
+                </div>
+                <hr />
+                <div class="customers">
+                  <h3>3500+</h3>
+                  <p>appliances</p>
+                  <p>repaired</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="reason">
+          <div class="container reason__inner">
+            <div class="section__title">
+              <p>Our Advantages</p>
+              <h2>Reason For Choosing Us</h2>
+            </div>
+            <div class="choos__item">
+              <div class="choosing">
+                <img src="./image/choos-1.svg" alt="" />
+                <h4>
+                  We get the job done <br />
+                  quickly
+                </h4>
+                <p>
+                  We hire only experienced craftsmen with specialized education
+                </p>
+              </div>
+              <div class="choosing">
+                <img src="./image/choos-2.svg" alt="" />
+                <h4>
+                  Prices affordable for <br />
+                  everyone
+                </h4>
+                <p>
+                  We hire only experienced craftsmen with specialized education
+                </p>
+              </div>
+              <div class="choosing">
+                <img src="./image/choos-3.svg" alt="" />
+                <h4>
+                  Extensive experience <br />
+                  of appliance
+                </h4>
+                <p>
+                  We hire only experienced craftsmen with specialized education
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="container reviews__inner">
+            <div class="section__title">
+              <p>Reviews</p>
+              <h2>What our clients say about us</h2>
+            </div>
+
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="clients__reviews">
+                    <div class="clients__review">
+                      <div class="clients__review-info">
+                        <div class="clients__review-title">
+                          <a href="">
+                            <img
+                              class="clients__photo"
+                              src="./image/cl-f.jpg"
+                              alt=""
+                            />
+                          </a>
+                          <div class="clients__name">
+                            <a href="" target="_blank">
+                              <p class="first-name">Nicolas</p>
+                              <p class="last-name">Johnes</p>
+                            </a>
+                          </div>
+                        </div>
+                        <a href=""> <img src="./image/google.svg" alt="" /></a>
+                      </div>
+                      <div class="clients__review-date">
+                        <p>25.05.2005</p>
+                        <img src="./image/star.svg" alt="" />
+                      </div>
+                      <p class="clients__review-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore
+                      </p>
+                      <p class="more">Read more</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="clients__reviews">
+                    <div class="clients__review">
+                      <div class="clients__review-info">
+                        <div class="clients__review-title">
+                          <img
+                            class="clients__photo"
+                            src="./image/cl-f.jpg"
+                            alt=""
+                          />
+                          <div class="clients__name">
+                            <p class="first-name">Mark</p>
+                            <p class="last-name">Johnes</p>
+                          </div>
+                        </div>
+                        <img src="./image/google.svg" alt="" />
+                      </div>
+                      <div class="clients__review-date">
+                        <p>25.05.2005</p>
+                        <img src="./image/star.svg" alt="" />
+                      </div>
+                      <p class="clients__review-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore
+                      </p>
+                      <p class="more">Read more</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="clients__reviews">
+                    <div class="clients__review">
+                      <div class="clients__review-info">
+                        <div class="clients__review-title">
+                          <img
+                            class="clients__photo"
+                            src="./image/cl-f.jpg"
+                            alt=""
+                          />
+                          <div class="clients__name">
+                            <p class="first-name">Antonio</p>
+                            <p class="last-name">Johnes</p>
+                          </div>
+                        </div>
+                        <img src="./image/google.svg" alt="" />
+                      </div>
+                      <div class="clients__review-date">
+                        <p>25.05.2005</p>
+                        <img src="./image/star.svg" alt="" />
+                      </div>
+                      <p class="clients__review-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore
+                      </p>
+                      <p class="more">Read more</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="clients__reviews">
+                    <div class="clients__review">
+                      <div class="clients__review-info">
+                        <div class="clients__review-title">
+                          <img
+                            class="clients__photo"
+                            src="./image/cl-f.jpg"
+                            alt=""
+                          />
+                          <div class="clients__name">
+                            <p class="first-name">Valera</p>
+                            <p class="last-name">Johnes</p>
+                          </div>
+                        </div>
+                        <img src="./image/google.svg" alt="" />
+                      </div>
+                      <div class="clients__review-date">
+                        <p>25.05.2005</p>
+                        <img src="./image/star.svg" alt="" />
+                      </div>
+                      <p class="clients__review-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore
+                      </p>
+                      <p class="more">Read more</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="clients__reviews">
+                    <div class="clients__review">
+                      <div class="clients__review-info">
+                        <div class="clients__review-title">
+                          <img
+                            class="clients__photo"
+                            src="./image/cl-f.jpg"
+                            alt=""
+                          />
+                          <div class="clients__name">
+                            <p class="first-name">Valera</p>
+                            <p class="last-name">Johnes</p>
+                          </div>
+                        </div>
+                        <img src="./image/google.svg" alt="" />
+                      </div>
+                      <div class="clients__review-date">
+                        <p>25.05.2005</p>
+                        <img src="./image/star.svg" alt="" />
+                      </div>
+                      <p class="clients__review-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore
+                      </p>
+                      <p class="more">Read more</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="clients__reviews">
+                    <div class="clients__review">
+                      <div class="clients__review-info">
+                        <div class="clients__review-title">
+                          <img
+                            class="clients__photo"
+                            src="./image/cl-f.jpg"
+                            alt=""
+                          />
+                          <div class="clients__name">
+                            <p class="first-name">Valera</p>
+                            <p class="last-name">Johnes</p>
+                          </div>
+                        </div>
+                        <img src="./image/google.svg" alt="" />
+                      </div>
+                      <div class="clients__review-date">
+                        <p>25.05.2005</p>
+                        <img src="./image/star.svg" alt="" />
+                      </div>
+                      <p class="clients__review-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore
+                      </p>
+                      <p class="more">Read more</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="clients__reviews">
+                    <div class="clients__review">
+                      <div class="clients__review-info">
+                        <div class="clients__review-title">
+                          <img
+                            class="clients__photo"
+                            src="./image/cl-f.jpg"
+                            alt=""
+                          />
+                          <div class="clients__name">
+                            <p class="first-name">Valera</p>
+                            <p class="last-name">Johnes</p>
+                          </div>
+                        </div>
+                        <img src="./image/google.svg" alt="" />
+                      </div>
+                      <div class="clients__review-date">
+                        <p>25.05.2005</p>
+                        <img src="./image/star.svg" alt="" />
+                      </div>
+                      <p class="clients__review-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore
+                      </p>
+                      <p class="more">Read more</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="clients__reviews">
+                    <div class="clients__review">
+                      <div class="clients__review-info">
+                        <div class="clients__review-title">
+                          <img
+                            class="clients__photo"
+                            src="./image/cl-f.jpg"
+                            alt=""
+                          />
+                          <div class="clients__name">
+                            <p class="first-name">Valera</p>
+                            <p class="last-name">Johnes</p>
+                          </div>
+                        </div>
+                        <img src="./image/google.svg" alt="" />
+                      </div>
+                      <div class="clients__review-date">
+                        <p>25.05.2005</p>
+                        <img src="./image/star.svg" alt="" />
+                      </div>
+                      <p class="clients__review-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore
+                      </p>
+                      <p class="more">Read more</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <!-- <div class="swiper-pagination"></div> -->
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+
+            <button>Watch All Reviews</button>
+          </div>
+        </section>
+        <section class="tools">
+          <div class="container tools__inner">
+            <div>
+              <h5 style="font-size: 40px; font-weight: 500; line-height: 130%">
+                Services
+              </h5>
+            </div>
+            <div class="tools__items">
+              <p class="tools__item">Refrigerator</p>
+              <p class="tools__item">Freezer</p>
+              <p class="tools__item">Washer</p>
+              <p class="tools__item">Trash Compactor</p>
+
+              <p class="tools__item">Range Hood</p>
+              <p class="tools__item">Dryer</p>
+              <p class="tools__item">Cooktop</p>
+              <p class="tools__item">Dish</p>
+
+              <p class="tools__item">Cooktop</p>
+              <p class="tools__item">Microwave</p>
+              <p class="tools__item">Wall Oven</p>
+              <p class="tools__item">Cooktop</p>
+            </div>
+            <div>
+              <button>more information</button>
+            </div>
+          </div>
+        </section>
+        <section class="appointment">
+          <div class="container appointment__inner">
+            <h5 style="font-size: 40px; font-weight: 500; line-height: 130%">
+              Contact us today and schedule an appointment.
+            </h5>
+
+            <p>
+              Our mission is to provide our customers with the highest level of
+              service and support, ensuring that their appliances are always
+              functioning at their best.
+            </p>
+
+            <div class="menu__btn-two">
+              <div class="btn__two">
+                <!--style="display: flex; gap: 10px"-->
+                <button
+                  style="
+                    font-weight: 500;
+                    background-color: #ddf471;
+                    color: #1a1a1a;
+                  "
+                >
+                  Schedule services
+                </button>
+                <button
+                  style="
+                    background-color: transparent;
+                    border: 2px solid #ddf471;
+                    color: #ddf471;
+                  "
+                >
+                  Call now
+                </button>
+              </div>
+              <div class="appointment__time">
+                <p>Weekdays 8AM to 6PM</p>
+                <a href="tel:+12799005599">+1 279-900-5599</a>
+              </div>
+            </div>
+            <img src="./image/phone-h.png" alt="" class="phone-honest" />
+          </div>
+        </section>
+      </main>
+      <footer class="footer__main">
+        <div class="footer__inner container">
+          <hr />
+          <div class="footer__items">
+            <div class="footer__left">
+              <p class="footer-title" style="color: white">Get In Touch</p>
+              <div class="footer__info">
+                <ul class="footer__item">
+                  <li>Greater Sacramento Area</li>
+                  <li><a href="tel:+1234567890">+1 234 567 890 </a></li>
+                  <li><a href="#">Honestarepair@Gmail.com</a></li>
+                </ul>
+                <ul class="footer__item">
+                  <li><a href="#">Google Profile </a></li>
+                  <li><a href="#">Yelp Profile </a></li>
+                </ul>
+              </div>
+              <ul class="footer__nav">
+                <li>
+                  <a href="./index.html"> Home </a>
+                </li>
+                <li><a href="./services.html"> Services </a></li>
+                <li><a href="./warranty.html"> Warranty </a></li>
+                <li><a href="./contact.html"> Contact us </a></li>
+              </ul>
+            </div>
+            <div class="footer__right">
+              <div class="footer__items-right">
+                <p class="footer-title">Hours of service</p>
+                <p class="footer__items">Monday - Friday8AM - 6PM</p>
+              </div>
+              <p class="footer__copyright">Copyright © 2024</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
