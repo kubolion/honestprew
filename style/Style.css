@@ -873,7 +873,9 @@ justify-content: center;
     padding: 30px 20px;
     gap: 10px;
 }
-
+.top__title{
+  padding: 35px 20px;
+}
 }
 
 
