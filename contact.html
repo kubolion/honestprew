@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/reset.css" />
     <link rel="stylesheet" href="./style/Style.css" />
-    <link rel="stylesheet" href="./mail.php">
-
+    <link rel="stylesheet" href="./contact.js">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&display=swap"
       rel="stylesheet"
-    /> 
-
-
+    />
+    
     <title>honest</title>
   </head>
   <body>
@@ -82,26 +80,32 @@
                 <p><a href="#">Honestarepair@Gmail.com</a></p>
               </div>
             </div>
-            <form action="./mail.php" method="post" >
+            <form action="./mail.php" method="post">
               		<!-- Hidden Required Fields -->
 		<input type="hidden" name="project_name" value="honest">
-		<input type="hidden" name="admin_email" value="momot.vova@inbox.ru">
+		<input type="hidden" name="admin_email" value="Honestarepair@Gmail.com">
 		<input type="hidden" name="form_subject" value="Form Subject">
-                <input type="hidden" name="additionalInfo" value="Text problem">
-
 		<!-- END Hidden Required Fields -->
 
             <div class="contact__feedback">
-
-
-		 <h2 style=" font-size: 24px; font-weight: 500; line-height: 130%; margin-bottom: 20px; " >
+              <h2
+                style="
+                  font-size: 24px;
+                  font-weight: 500;
+                  line-height: 130%;
+                  margin-bottom: 20px;
+                "
+              >
                 We value your feedback
               </h2>
 
-              <input name="name" type="text" placeholder="Your Name (required)" required  />
-              <input name="email" type="email" placeholder="Email(required)" required  />
+              <input name="name" type="text" placeholder="Your Name (required)" />
+              <input name="email" type="email" placeholder="Email(required)" />
               <input name="subject" type="text" placeholder="Subject" />
-              <textarea name="text"class="form__text-area" placeholder="How may we help you?"></textarea>
+              <textarea name="text"
+                class="form__text-area"
+                placeholder="How may we help you?"
+              ></textarea>
               <div>
                 <button style="margin-top: 10px">Get a quote</button>
               </div>
