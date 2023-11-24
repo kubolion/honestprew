@@ -369,13 +369,17 @@ hr {
 }
 /* .reviews {
 } */
-
-.reviews__inner {
-  overflow: hidden;
+.reviews__inner{
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 30px;
+}
+.swiper-box{
+  display: block ;
+}
+.watch__all{
+display: flex;
+justify-content: center;
 }
 
 .clients__reviews {
@@ -387,7 +391,7 @@ hr {
 
 .clients__review {
   display: flex;
-  width: 500px;
+  max-width: 500px;
   padding: 30px;
   flex-direction: column;
   justify-content: center;
@@ -411,7 +415,7 @@ hr {
 }
 
 .clients__photo {
-  width: 100px;
+  max-width: 100px;
   height: 100px;
 }
 
@@ -463,8 +467,8 @@ hr {
 }
 
 .swiper {
-  width: 1300px;
-  height: 400px;
+  max-width: 1300px;
+  min-height: 400px;
 }
 
 .swiper-slide {
@@ -619,7 +623,6 @@ hr {
 .services__item img {
   border-radius: 32px;
 }
-
 .services__item-info {
   display: flex;
   gap: 50px;
@@ -721,6 +724,10 @@ hr {
     transition: transform 0.5s ease;
     border-radius: 0 0 32px 0;
   }
+  .swiper-slide {
+    opacity: 1;
+
+  }
 
   .header__menu-list.menu--open {
     transform: translateY(0);
@@ -807,8 +814,18 @@ hr {
     flex-direction: column;
   }
 
-  .footer__copyright {
+  /* .footer__copyright {
     padding-top: 50px;
+  } */
+
+  .footer__inner{
+    gap: 40px;
+  }
+  .footer__items-right{
+    gap: 30px;
+  }
+  .footer__right{
+    gap: 50px ;
   }
 
   .warranty__item {
@@ -844,6 +861,22 @@ hr {
     border-radius: 0;
   }
 }
+
+@media (max-width: 500px) {
+  .customers h3{
+    font-size: 24px;
+  }
+  .customers p{
+    font-size: 14px;
+  }
+  .statistics__box .statistics {
+    padding: 30px 20px;
+    gap: 10px;
+}
+
+}
+
+
 
 @media (max-width: 440px) {
   .header__menu-tel a {
