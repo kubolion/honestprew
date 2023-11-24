@@ -863,8 +863,12 @@ justify-content: center;
 }
 
 @media (max-width: 500px) {
+  .statistics__box{
+    margin-top: 20px;
+  }
+ 
   .customers h3{
-    font-size: 24px;
+    font-size: 29px;
   }
   .customers p{
     font-size: 14px;
@@ -918,3 +922,21 @@ justify-content: center;
     padding: 50px 20px;
   }
 }
+
+@media (max-width: 380px) {
+
+  .customers h3{
+    font-size: 24px;
+  }
+  .customers p{
+    font-size: 14px;
+  }
+  .statistics__box .statistics {
+    padding: 30px 20px;
+    gap: 10px;
+}
+.top__title{
+  padding: 35px 20px;
+}
+}
+
