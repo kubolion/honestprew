@@ -451,15 +451,26 @@ justify-content: center;
   color: #767676;
 }
 
+.read-more-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .more {
   color: #767676;
+  cursor: pointer;
 }
+.more:hover{
+  color: #525252;
+}
+
 
 .clients__info-all {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 
 .clients__info {
   display: flex;
@@ -470,7 +481,9 @@ justify-content: center;
   max-width: 1300px;
   min-height: 400px;
 }
-
+.hidden {
+  display: none;
+}
 .swiper-slide {
   opacity: 0.5;
   transform: scale(0.8) !important;
