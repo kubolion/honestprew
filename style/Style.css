@@ -696,7 +696,7 @@ justify-content: center;
 @media (max-width: 1330px) {
   .appointment__blue{
     border-radius: 0;
-    padding: 20px !important;
+    padding: 50px 20px !important;
   }
 }
 
