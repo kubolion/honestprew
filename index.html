@@ -76,7 +76,7 @@
                   in Sacramento, California.
                 </p>
                 <div class="top__content-info">
-                   <button class="button__servise" onclick="makeCall()"> Schedule service</button>
+                  <button class="button__servise" onclick="makeCall()"> call now</button>
                   <div class="top__info-days">
                     <p>Weekdays 8AM to 6PM</p>
                     <a href="tel:+12799005599">+1 279-900-5599</a>
@@ -542,24 +542,23 @@
             <div class="menu__btn-two">
               <div class="btn__two">
                 <!--style="display: flex; gap: 10px"-->
-                <button
+                <button onclick="makeCall()"
                   style="
                     font-weight: 500;
                     background-color: #ddf471;
-                    color: #1a1a1a;
-                  "
-                >
-                <a href="tel:+12799005599">
-                  Schedule services</a>
+                    color: #1a1a1a;">
+
+                  Schedule services
                 </button>
-                <button
+
+                <button onclick="makeCall()"
                   style="
                     background-color: transparent;
                     border: 2px solid #ddf471;
                     color: #ddf471;
                   "
                 >
-                 <a href="tel:+12799005599"> Call now</a>
+                 Call now
                 </button>
               </div>
               <div class="appointment__time">
@@ -613,3 +612,4 @@
     <script src="./script.js"></script>
   </body>
 </html>
+
