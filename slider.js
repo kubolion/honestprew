@@ -14,7 +14,8 @@ document.querySelectorAll('.read-more-container').forEach(function(container) {
   });
 });
 const swiper = new Swiper(".swiper", {
-  
+    allowTouchMove: false,
+
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
