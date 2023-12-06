@@ -6,12 +6,19 @@ menuBtn.addEventListener("click", () => {
 });
 
 function makeCall() {
-  // Замените номер телефона на нужный
+  
   const phoneNumber = '+12799005599';
 
-  // Формируем URL для звонка
+  // Формируем URL для звонк
   const telUrl = 'tel:' + phoneNumber;
 
-  // Открываем URL в новом окне (может вызвать звонок на мобильных устройствах)
-  window.open(telUrl, '_blank');
+  const link = document.createElement('a');
+  link.href = telUrl;
+
+  document.body.appendChild(link);
+
+  link.click();
+
+
+  document.body.removeChild(link);
 }
